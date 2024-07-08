@@ -41,12 +41,12 @@ const Todo = () => {
 
   return (
     <div className="todo-container">
-      <h1>Dlozi's Todo List</h1>
+      <h1>Alungile's Todo List</h1>
       <div className="add-todo">
         <input
           type="text"
           className="input-todo"
-          placeholder="HEYY DLOZI WHATS FOR TODAY"
+          placeholder="HEYY LUNGI WHATS FOR TODAY"
           value={todo}
           onChange={(e) => setTodo(e.target.value)}
         />
